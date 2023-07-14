@@ -1,0 +1,98 @@
+.app {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("./img/597925.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-size: 1300px; */
+}
+
+.app_body {
+  /* background-color: black; */
+}
+
+.header {
+  background-color: burlywood;
+  /* height: 80px;
+  width: 300px; */
+}
+
+.input_box {
+  /* background-color: black; */
+  font-size: 25px;
+  font-weight: bolder;
+  height: 65px;
+  width: 300px;
+  padding-left: 30px;
+  color: black;
+
+
+
+
+}
+
+.btn {
+  /* background-color: black; */
+  height: 70px;
+  width: 100px;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.items {
+  line-height: 60px;
+  border-style: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+ul {
+  /* background-color: black; */
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+
+
+li {
+  margin: 5px;
+  padding: 0px 10px;
+  /* background-color: #4633ff; */
+  border-radius: 30px;
+  display: flex;
+  background-color: lightgrey;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  color: black;
+}
+
+.del_btn {
+  background-color: wheat;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  border-radius: 40px;
+  border: none;
+}
+
+.cross {
+  text-decoration-line: line-through;
+  cursor: pointer;
+}
+
+.not-cross {
+  cursor: pointer;
+}
